@@ -3,8 +3,7 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - az_vue',
-    title: 'az_vue',
+    titleTemplate: '%s || Azino',
     htmlAttrs: {
       lang: 'en'
     },
@@ -12,14 +11,23 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
-    ],
+    ],    
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'apple-touch-icon', sizes: '180x180', href: "/favicons/apple-touch-icon.png" },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: "/favicons/favicon-32x32.png" },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: "/favicons/favicon-16x16.png" },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap' }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    /*
+    '@assets/css/animate.min.css',
+    '@assets/css/azino-icons.css',
+    '@assets/css/fontawesome-all.min.css',
+    '@assets/css/main.css',
+    'swiper/swiper-bundle.min.css'*/
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -67,5 +75,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    transpile: [
+      /^vue-visibility-sensor($|\/)/,
+      /^countup.js($|\/)/,
+      /^vue-countup-v2($|\/)/,
+      /^swiper($|\/)/
+    ]
   }
 }
