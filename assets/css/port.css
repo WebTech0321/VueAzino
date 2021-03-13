@@ -29,3 +29,6 @@
 img, iframe {
   display: block;
 }
+.list-unstyled {
+  list-style: none;
+}

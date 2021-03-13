@@ -1,7 +1,7 @@
 <template>
-  <section className="event-page pt-120 pb-120">
+  <section class="event-page pt-120 pb-120">
     <v-container>
-      <div className="event-grid">
+      <div class="event-grid">
         <EventCard v-for="(event, index) in EVENTS_DATA" :data="event" :key="'event-card-key-'+index" />
       </div>
       <PostPaginations />
@@ -16,8 +16,8 @@ import image3 from '../../assets/images/events/event-1-3.jpg'
 import image4 from '../../assets/images/events/event-1-4.jpg'
 import image5 from '../../assets/images/events/event-1-5.jpg'
 import image6 from '../../assets/images/events/event-1-6.jpg'
-import EventCard from './event-card'
 import PostPaginations from '../post-paginations'
+import EventCard from './event-card'
 
 const EVENTS_DATA = [
   {
@@ -90,4 +90,3 @@ export default {
 
 <style>
 </style>
-

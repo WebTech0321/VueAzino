@@ -4,12 +4,12 @@
       <swiper-slide>
         <div
           class="image-layer"
-          style={{ backgroundImage: `url(${banner1})` }}
+          :style="{backgroundImage: 'url('+banner1+')'}"
         ></div>
 
         <v-container>
-          <v-row class=" justify-content-start">
-            <v-col xl={6} lg={12} class="text-left">
+          <v-row class=" justify-start">
+            <v-col xl="6" lg="12" class="text-left">
               <h2>
                 Donat<span>i</span>on <br /> Can Change <br /> Someone’s Life
               </h2>
@@ -28,12 +28,12 @@
       <swiper-slide>
         <div
           class="image-layer"
-          style={{ backgroundImage: `url(${banner2})` }}
+          :style="{backgroundImage: 'url('+banner2+')'}"
         ></div>
 
         <v-container>
-          <v-row class=" justify-content-start">
-            <v-col xl={6} lg={12} class="text-left">
+          <v-row class=" justify-start">
+            <v-col xl="6" lg="12" class="text-left">
               <h2>
                 Donat<span>i</span>on <br /> Can Change <br /> Someone’s Life
               </h2>
@@ -52,12 +52,12 @@
       <swiper-slide>
         <div
           class="image-layer"
-          style={{ backgroundImage: `url(${banner1})` }}
+          :style="{backgroundImage: 'url('+banner1+')'}"
         ></div>
 
         <v-container>
-          <v-row class="justify-content-start">
-            <v-col xl={6} lg={12} class="text-left">
+          <v-row class="justify-start">
+            <v-col xl="6" lg="12" class="text-left">
               <h2>
                 Donat<span>i</span>on <br /> Can Change <br /> Someone’s Life
               </h2>

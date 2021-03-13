@@ -13,7 +13,7 @@
                   <div class="cause-card__top">
                     <div class="cause-card__progress">
                       <span
-                        style="width: '66%'"
+                        style="width: 66%"
                         class=" cardProgress"
                       >
                         <b>
@@ -40,7 +40,7 @@
               injected humour, or randomised words which don't look even
               slightly believable. If you are going to use a passage of Lorem
               Ipsum, you need to be sure there isn't anything embarrassing
-              hidden in the middle of text.{" "}
+              hidden in the middle of text.
             </p>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -57,7 +57,7 @@
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy
               text ever since the 1500s, when an unknown printer took a galley
-              of type and scrambled it to make a type specimen book.{" "}
+              of type and scrambled it to make a type specimen book.
             </p>
             <div class="cause-card__bottom">
               <a href="cause-details.html" class="thm-btn dynamic-radius">

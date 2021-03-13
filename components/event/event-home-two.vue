@@ -43,35 +43,35 @@ import EventCard from './event-card'
 const EVENT_HOME_TWO_DATA = [
   {
     image: image1,
-    title: "Help for needy people",
-    date: "20 May",
-    time: "9:00am 02:00pm",
-    location: "New York",
-    link: "/event-details"
+    title: 'Help for needy people',
+    date: '20 May',
+    time: '9:00am 02:00pm',
+    location: 'New York',
+    link: '/event-details'
   },
   {
     image: image2,
-    title: "Help for needy people",
-    date: "20 May",
-    time: "9:00am 02:00pm",
-    location: "New York",
-    link: "/event-details"
+    title: 'Help for needy people',
+    date: '20 May',
+    time: '9:00am 02:00pm',
+    location: 'New York',
+    link: '/event-details'
   },
   {
     image: image3,
-    title: "Help for needy people",
-    date: "20 May",
-    time: "9:00am 02:00pm",
-    location: "New York",
-    link: "/event-details"
+    title: 'Help for needy people',
+    date: '20 May',
+    time: '9:00am 02:00pm',
+    location: 'New York',
+    link: '/event-details'
   },
   {
     image: image4,
-    title: "Help for needy people",
-    date: "20 May",
-    time: "9:00am 02:00pm",
-    location: "New York",
-    link: "/event-details"
+    title: 'Help for needy people',
+    date: '20 May',
+    time: '9:00am 02:00pm',
+    location: 'New York',
+    link: '/event-details'
   }
 ]
 export default {
