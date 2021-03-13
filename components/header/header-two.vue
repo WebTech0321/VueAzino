@@ -1,7 +1,7 @@
 <template>
   <div class="main-header__two">
     <div class="main-header__top">
-      <div class="container">
+      <v-container>
         <p>Welcome to non profit charity platform</p>
         <div class="main-header__social">
           <a href="#" aria-label="twitter">
@@ -17,10 +17,10 @@
             <i class="fab fa-instagram"></i>
           </a>
         </div>
-      </div>
+      </v-container>
     </div>
     <div class="header-upper">
-      <div class="container">
+      <v-container>
         <div class="logo-box">
           <Link href="/">
             <a aria-label="logo image">
@@ -57,15 +57,15 @@
             </div>
           </div>
         </div>
-      </div>
+      </v-container>
     </div>
     <nav class="main-menu">
-      <div class="container">
+      <v-container>
         <NavLinks extraClassName="dynamic-radius" />
         <NuxtLink to="/contact">
           <a class="thm-btn dynamic-radius">Donate Now</a>
         </NuxtLink>
-      </div>
+      </v-container>
     </nav>
   </div>
 </template>

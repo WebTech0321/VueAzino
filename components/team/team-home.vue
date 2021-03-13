@@ -1,9 +1,9 @@
 <template>
   <section
       class='team-about pt-120 pb-120'
-      :style="{backgroundImage: 'url(`' + bgImage + '`)'}"
+      :style="{backgroundImage: 'url(' + bgImage + ')'}"
     >
-    <div class='container'>
+    <v-container>
       <div class='team-about__top'>
         <v-row class=' align-items-center'>
           <v-col md='12' lg='7'>
@@ -40,7 +40,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </v-container>
   </section>
 </template>
 

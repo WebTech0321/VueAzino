@@ -20,6 +20,10 @@ import StickyHeader from '~/components/header/sticky-header.vue'
 import AboutOne from '~/components/about/about-one.vue'
 import AboutCounter from '~/components/about/about-counter.vue'
 import BrandCarousel from '~/components/brand-carousel.vue'
+import TeamHome from '~/components/team/team-home.vue'
+import VideoCard from '~/components/videos/video-card.vue'
+import TestimonialsOne from '~/components/testimonials/testimonials-one.vue'
+import Footer from '~/components/footer.vue'
 
 export default {
   components: {
@@ -28,7 +32,11 @@ export default {
     StickyHeader,
     AboutOne,
     BrandCarousel,
-    AboutCounter
+    AboutCounter,
+    TeamHome,
+    VideoCard,
+    TestimonialsOne,
+    Footer
   },
   head () {
     return {

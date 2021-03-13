@@ -22,16 +22,11 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    /*
-    '@assets/css/animate.min.css',
-    '@assets/css/azino-icons.css',
-    '@assets/css/fontawesome-all.min.css',
-    '@assets/css/main.css',
-    'swiper/swiper-bundle.min.css'*/
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: './plugins/vue-awesome-swiper.js', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -48,7 +43,13 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    ['vue-scrollto/nuxt', {
+      duration: 500,
+      force: true,
+      x: false,
+      y: true
+    }]
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -76,10 +77,10 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: [
-      /^vue-visibility-sensor($|\/)/,
-      /^countup.js($|\/)/,
-      /^vue-countup-v2($|\/)/,
-      /^swiper($|\/)/
+      'vue-visibility-sensor',
+      'countup.js',
+      'vue-countup-v2',
+      'swiper'
     ]
   }
 }

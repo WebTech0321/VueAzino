@@ -1,6 +1,6 @@
 <template>
   <section class="about-two pt-120 pb-120">
-    <div class="container">
+    <v-container>
       <v-row>
         <v-col xl="6">
           <div class="about-two__image">
@@ -57,7 +57,7 @@
           </div>
         </v-col>
       </v-row>
-    </div>
+    </v-container>
   </section>
 </template>
 

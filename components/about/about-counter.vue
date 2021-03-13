@@ -1,6 +1,6 @@
 <template>
   <section class="about-counter pt-120">
-    <div class="container">
+    <v-container>
       <v-row>
         <v-col lg="6">
           <div class="block-title">
@@ -45,7 +45,7 @@
           </div>
         </v-col>
       </v-row>
-    </div>
+    </v-container>
   </section>
 </template>
 

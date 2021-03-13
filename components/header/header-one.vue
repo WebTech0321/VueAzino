@@ -1,6 +1,6 @@
 <template>
   <header class="main-header">
-    <div class="container">
+    <v-container>
       <div class="inner-container">
         <v-row>
           <v-col sm="12" md="12" lg="12" xl="2">
@@ -63,7 +63,7 @@
           </v-col>
         </v-row>
       </div>
-    </div>
+    </v-container>
   </header>
 </template>
 

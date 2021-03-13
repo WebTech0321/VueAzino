@@ -1,7 +1,7 @@
 <template>
   <section class="page-header">
-    <div class="page-header__bg" :style="{backgroundImage: 'url(`' + pageHeaderBg + '`)'}"></div>
-    <div class="container">
+    <div class="page-header__bg" :style="{backgroundImage: 'url(' + pageHeaderBg + ')'}"></div>
+    <v-container>
       <h2>{{title}}</h2>
       <ul class="thm-breadcrumb list-unstyled ">
         <li>
@@ -14,7 +14,7 @@
           <span>{{crumbTitle}}</span>
         </li>
       </ul>
-    </div>
+    </v-container>
   </section>
 </template>
 

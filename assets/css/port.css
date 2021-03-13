@@ -6,3 +6,19 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+.main-header .inner-container::before {
+  z-index: -1;
+}
+.v-application {  
+  font-family: "Jost", sans-serif;
+  font-family: var(--thm-font);
+  font-size: 18px;
+  line-height: 1.89;
+}
+.theme--dark.v-application {
+  color: var(--thm-color);
+  background-color: white;
+}
+.main-header__language-image {
+  display: inline-flex;
+}

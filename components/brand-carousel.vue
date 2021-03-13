@@ -1,70 +1,48 @@
 <template>
   <div class="client-carousel pt-120 pb-120" :class="extraClass">
-    <div class="container">
-      <!--<Swiper {...brandCarouselOptions}>
+    <v-container>
+      <swiper :options="brandCarouselOptions">
         <div class="swiper-wrapper">
-          <SwiperSlide>
+          <swiper-slide>
             <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
+          </swiper-slide>
+          <swiper-slide>
             <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
+          </swiper-slide>
+          <swiper-slide>
             <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
+          </swiper-slide>
+          <swiper-slide>
             <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
+          </swiper-slide>
+          <swiper-slide>
             <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
+          </swiper-slide>
+          <swiper-slide>
             <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
+          </swiper-slide>
+          <swiper-slide>
             <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
+          </swiper-slide>
+          <swiper-slide>
             <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
+          </swiper-slide>
+          <swiper-slide>
             <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
+          </swiper-slide>
+          <swiper-slide>
             <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
+          </swiper-slide>
+          <swiper-slide>
             <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img :src="brandImage" alt="" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img :src="brandImage" alt="" />
-          </SwiperSlide>
+          </swiper-slide>
         </div>
-      </Swiper>-->
-    </div>
+      </swiper>
+    </v-container>
   </div>
 </template>
 
 <script>
-// import { Swiper, SwiperSlide } from 'swiper/vue'
 import brandImage from '../assets/images/resources/brand-1-1.png'
 
 const brandCarouselOptions = {
@@ -103,8 +81,6 @@ export default {
   name: 'BrandCarousel',
   props: ['extraClass'],
   components: {
-    // Swiper,
-    // SwiperSlide
   },
   data () {
     return ({

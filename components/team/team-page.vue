@@ -1,6 +1,6 @@
 <template>
   <section class="team-page pt-120 pb-120">
-    <div class="container">
+    <v-container>
       <div class="team-3-col">
         <TeamCard
           v-for="(data, index) in TEAM_DATA"
@@ -11,7 +11,7 @@
           :image="data.image"
         />
       </div>
-    </div>
+    </v-container>
   </section>
 </template>
 

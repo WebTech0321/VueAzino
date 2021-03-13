@@ -1,6 +1,6 @@
 <template>
   <section class="about-one pt-120 pb-40">
-    <div class="container">
+    <v-container>
       <v-row>
         <div class="about-one__award">
           <img :src="about1" alt="" />
@@ -12,8 +12,8 @@
           <img :src="about3" alt="" class="img-fluid" />
         </v-col>
       </v-row>
-    </div>
-    <div class="container">
+    </v-container>
+    <v-container>
       <div class="team-about__top mt-60">
         <v-row>
           <v-col md="12" lg="4">
@@ -41,7 +41,7 @@
           </v-col>
         </v-row>
       </div>
-    </div>
+    </v-container>
   </section>
 </template>
 

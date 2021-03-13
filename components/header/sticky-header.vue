@@ -1,6 +1,6 @@
 <template>
   <div class="stricky-header stricked-menu" :class="{'stricky-fixed' : sticky}">
-    <div class="container">
+    <v-container>
       <div class="logo-box">
         <NuxtLink to="/">
           <a aria-label="logo image">
@@ -11,7 +11,7 @@
       <div class="sticky-header__content">
         <NavLinks />
       </div>
-    </div>
+    </v-container>
   </div>
 </template>
 
@@ -26,11 +26,9 @@ export default {
     NavLinks
   },
   mounted () {
-    console.log('mounted')
     window.addEventListener('scroll', this.handleScroll)
   },
   unmounted () {
-    console.log('unmounted')
     window.removeEventListener('scroll', this.handleScroll)
   },
   data () {
