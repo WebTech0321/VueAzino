@@ -2,10 +2,10 @@
   <section class="testimonials-two">
     <v-container>
       <div class="team-about__top">
-        <v-row class="align-items-center">
+        <v-row class="align-center">
           <v-col md="12" lg="7">
             <BlockTitle
-              title="What they are talking \n about azino."
+              title="What they are talking <br/> about azino."
               tagLine="Our Testimonials"
             />
           </v-col>

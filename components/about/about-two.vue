@@ -51,9 +51,7 @@
                 </div>
               </v-col>
             </v-row>
-            <NuxtLink to="/about">
-              <a class="thm-btn dynamic-radius">Discover More</a>
-            </NuxtLink>
+            <nuxt-link to="/about" class="thm-btn dynamic-radius">Discover More</nuxt-link>
           </div>
         </v-col>
       </v-row>

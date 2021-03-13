@@ -7,9 +7,9 @@
       </span>
 
       <div class="logo-box">
-        <NuxtLink to="/" aria-label="logo image">
+        <nuxt-link to="/" aria-label="logo image">
           <img :src="logoLight" width="101" alt="" />
-        </NuxtLink>
+        </nuxt-link>
       </div>
       <div class="mobile-nav__container">
         <NavLinks />

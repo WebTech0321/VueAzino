@@ -5,7 +5,7 @@
     >
     <v-container>
       <div class='team-about__top'>
-        <v-row class=' align-items-center'>
+        <v-row class=' align-center'>
           <v-col md='12' lg='7'>
             <div class='block-title'>
               <p>

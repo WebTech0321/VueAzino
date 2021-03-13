@@ -1,15 +1,14 @@
 <template>
-  <div className="block-title">
+  <div class="block-title">
     <p>
       <img :src="heart" width="15" alt="" />
       {{tagLine}}
     </p>
-    <h3>{{title}}</h3>
+    <h3><span v-html="title"></span></h3>
   </div>
 </template>
 
 <script>
-import heart from '../assets/images/shapes/heart-2-1.png'
 export default {
   name: 'BlockTitle',
   props: ['tagLine', 'title'],
@@ -18,7 +17,7 @@ export default {
 
   data () {
     return ({
-      heart
+      heart : require('~/assets/images/shapes/heart-2-1.png')
     })
   },
 

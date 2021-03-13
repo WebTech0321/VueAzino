@@ -5,9 +5,7 @@
       <h2>{{title}}</h2>
       <ul class="thm-breadcrumb list-unstyled ">
         <li>
-          <NuxtLink to="/">
-            <a>Home</a>
-          </NuxtLink>
+          <nuxt-link to="/">Home</nuxt-link>
         </li>
         <li>-</li>
         <li>

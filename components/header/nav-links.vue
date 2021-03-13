@@ -1,27 +1,27 @@
 <template>
   <ul class="main-menu__list" :class="extraClassName">
     <li class="dropdown">
-      <NuxtLink to="/index">
+      <nuxt-link to="/index">
         <div>
           Home
           <button aria-label="dropdown toggler" @click="handleDropdownStatus">
             <i class="fa fa-angle-down"></i>
           </button>
         </div>
-      </NuxtLink>
+      </nuxt-link>
       <ul class="dropdown-list">
         <li>
-          <NuxtLink to="/index">
+          <nuxt-link to="/index">
             Home One
-          </NuxtLink>
+          </nuxt-link>
         </li>
         <li>
-          <NuxtLink to="/index-2">
+          <nuxt-link to="/index-2">
             Home Two
-          </NuxtLink>
+          </nuxt-link>
         </li>
         <li class="dropdown">
-          <NuxtLink to="#">
+          <nuxt-link to="#">
             <div>
               Header Styles
               <button
@@ -31,24 +31,24 @@
                 <i class="fa fa-angle-down"></i>
               </button>
             </div>
-          </NuxtLink>
+          </nuxt-link>
           <ul class="dropdown-list">
             <li>
-              <NuxtLink to="/index">
+              <nuxt-link to="/index">
                 Header One
-              </NuxtLink>
+              </nuxt-link>
             </li>
             <li>
-              <NuxtLink to="/index-2">
+              <nuxt-link to="/index-2">
                 Header Two
-              </NuxtLink>
+              </nuxt-link>
             </li>
           </ul>
         </li>
       </ul>
     </li>
     <li class="dropdown">
-      <NuxtLink to="/causes">
+      <nuxt-link to="/causes">
         <div>
           Causes
           <button
@@ -58,22 +58,22 @@
             <i class="fa fa-angle-down"></i>
           </button>
         </div>
-      </NuxtLink>
+      </nuxt-link>
       <ul class="dropdown-list">
         <li>
-          <NuxtLink to="/causes">
+          <nuxt-link to="/causes">
             Causes
-          </NuxtLink>
+          </nuxt-link>
         </li>
         <li>
-          <NuxtLink to="/cause-details">
+          <nuxt-link to="/cause-details">
             Cause Details
-          </NuxtLink>
+          </nuxt-link>
         </li>
       </ul>
     </li>
     <li class="dropdown">
-      <NuxtLink to="/events">
+      <nuxt-link to="/events">
         <div>
           Events
           <button
@@ -83,22 +83,22 @@
             <i class="fa fa-angle-down"></i>
           </button>
         </div>
-      </NuxtLink>
+      </nuxt-link>
       <ul class="dropdown-list">
         <li>
-          <NuxtLink to="/events">
+          <nuxt-link to="/events">
             Events
-          </NuxtLink>
+          </nuxt-link>
         </li>
         <li>
-          <NuxtLink to="/event-details">
+          <nuxt-link to="/event-details">
             Event Details
-          </NuxtLink>
+          </nuxt-link>
         </li>
       </ul>
     </li>
     <li class="dropdown">
-      <NuxtLink to="/news">
+      <nuxt-link to="/news">
         <div>
           News
           <button
@@ -108,22 +108,22 @@
             <i class="fa fa-angle-down"></i>
           </button>
         </div>
-      </NuxtLink>
+      </nuxt-link>
       <ul class="dropdown-list">
         <li>
-          <NuxtLink to="/news">
+          <nuxt-link to="/news">
             News
-          </NuxtLink>
+          </nuxt-link>
         </li>
         <li>
-          <NuxtLink to="/news-details">
+          <nuxt-link to="/news-details">
             News Details
-          </NuxtLink>
+          </nuxt-link>
         </li>
       </ul>
     </li>
     <li class="dropdown">
-      <NuxtLink to="#">
+      <nuxt-link to="#">
         <div>
           Pages
           <button
@@ -133,34 +133,34 @@
             <i class="fa fa-angle-down"></i>
           </button>
         </div>
-      </NuxtLink>
+      </nuxt-link>
       <ul class="dropdown-list">
         <li>
-          <NuxtLink to="/about">
+          <nuxt-link to="/about">
             About
-          </NuxtLink>
+          </nuxt-link>
         </li>
         <li>
-          <NuxtLink to="/volunteers">
+          <nuxt-link to="/volunteers">
             Volunteers
-          </NuxtLink>
+          </nuxt-link>
         </li>
         <li>
-          <NuxtLink to="/become-volunteer">
+          <nuxt-link to="/become-volunteer">
             Become a Volunteer
-          </NuxtLink>
+          </nuxt-link>
         </li>
         <li>
-          <NuxtLink to="/gallery">
+          <nuxt-link to="/gallery">
             Gallery
-          </NuxtLink>
+          </nuxt-link>
         </li>
       </ul>
     </li>
     <li>
-      <NuxtLink to="/contact">
+      <nuxt-link to="/contact">
         Contact
-      </NuxtLink>
+      </nuxt-link>
     </li>
     <li class="search-btn search-toggler">
       <span>

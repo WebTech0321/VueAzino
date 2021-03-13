@@ -5,7 +5,7 @@
 
 <script>
 export default {
-  name: 'VideoCardTwo',
+  name: 'FaqOne',
   components: {
   },
 

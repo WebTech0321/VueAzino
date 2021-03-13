@@ -2,11 +2,9 @@
   <div class="stricky-header stricked-menu" :class="{'stricky-fixed' : sticky}">
     <v-container>
       <div class="logo-box">
-        <NuxtLink to="/">
-          <a aria-label="logo image">
-            <img :src="logoLight" width="101" alt="" />
-          </a>
-        </NuxtLink>
+        <nuxt-link to="/" aria-label="logo image">
+          <img :src="logoLight" width="101" alt="" />
+        </nuxt-link>
       </div>
       <div class="sticky-header__content">
         <NavLinks />

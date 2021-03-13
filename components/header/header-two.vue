@@ -62,9 +62,7 @@
     <nav class="main-menu">
       <v-container>
         <NavLinks extraClassName="dynamic-radius" />
-        <NuxtLink to="/contact">
-          <a class="thm-btn dynamic-radius">Donate Now</a>
-        </NuxtLink>
+        <nuxt-link to="/contact" class="thm-btn dynamic-radius">Donate Now</nuxt-link>
       </v-container>
     </nav>
   </div>

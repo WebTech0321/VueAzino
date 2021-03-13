@@ -41,7 +41,7 @@ export default {
 @import '../assets/css/animate.min.css';
 @import '../assets/css/azino-icons.css';
 @import '../assets/css/fontawesome-all.min.css';
-@import '../assets/css/main.css';
 @import '../assets/css/port.css';
+@import '../assets/css/main.css';
 @import 'swiper/swiper-bundle.min.css';
 </style>

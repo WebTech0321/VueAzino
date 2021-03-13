@@ -5,14 +5,14 @@
         <v-row>
           <v-col lg="3" md="6" sm="12">
             <div class="footer-widget mb-40 footer-widget__about">
-              <NuxtLink to="/" aria-label="logo image">
+              <nuxt-link to="/" aria-label="logo image">
                 <img
                   :src="logoLight"
                   class="footer-widget__logo"
                   width="101"
                   alt=""
                 />
-              </NuxtLink>
+              </nuxt-link>
               <p>
                 Lorem ipsum dolor sit amet consect etur adi pisicing elit sed.
               </p>
@@ -41,49 +41,31 @@
               <h3 class="footer-widget__title">Explore</h3>
               <ul class="list-unstyled footer-widget__link-list">
                 <li>
-                  <NuxtLink to="/causes">
-                    <a>Our Causes</a>
-                  </NuxtLink>
+                  <nuxt-link to="/causes">Our Causes</nuxt-link>
                 </li>
                 <li>
-                  <NuxtLink to="/about">
-                    <a>About us</a>
-                  </NuxtLink>
+                  <nuxt-link to="/about">About us</nuxt-link>
                 </li>
                 <li>
-                  <NuxtLink to="/news">
-                    <a>New Campaign</a>
-                  </NuxtLink>
+                  <nuxt-link to="/news">New Campaign</nuxt-link>
                 </li>
                 <li>
-                  <NuxtLink to="/events">
-                    <a>Upcoming Events</a>
-                  </NuxtLink>
+                  <nuxt-link to="/events">Upcoming Events</nuxt-link>
                 </li>
                 <li>
-                  <NuxtLink to="/about">
-                    <a>Site Map</a>
-                  </NuxtLink>
+                  <nuxt-link to="/about">Site Map</nuxt-link>
                 </li>
                 <li>
-                  <NuxtLink to="/contact">
-                    <a>Help</a>
-                  </NuxtLink>
+                  <nuxt-link to="/contact">Help</nuxt-link>
                 </li>
                 <li>
-                  <NuxtLink to="/causes">
-                    <a>Donate</a>
-                  </NuxtLink>
+                  <nuxt-link to="/causes">Donate</nuxt-link>
                 </li>
                 <li>
-                  <NuxtLink to="/contact">
-                    <a>Contact us</a>
-                  </NuxtLink>
+                  <nuxt-link to="/contact">Contact us</nuxt-link>
                 </li>
                 <li>
-                  <NuxtLink to="/contact">
-                    <a>Terms</a>
-                  </NuxtLink>
+                  <nuxt-link to="/contact">Terms</nuxt-link>
                 </li>
               </ul>
             </div>
@@ -96,18 +78,14 @@
                   <img :src="blogPost1" alt="" />
                   <p>22 May, 2020</p>
                   <h3>
-                    <NuxtLink to="/news-details">
-                      <a>You can help the poor in need</a>
-                    </NuxtLink>
+                    <nuxt-link to="/news-details">You can help the poor in need</nuxt-link>
                   </h3>
                 </li>
                 <li>
                   <img :src="blogPost2" alt="" />
                   <p>22 May, 2020</p>
                   <h3>
-                    <NuxtLink to="/news-details">
-                      <a>Rise fund for Healthy Food</a>
-                    </NuxtLink>
+                    <nuxt-link to="/news-details">Rise fund for Healthy Food</nuxt-link>
                   </h3>
                 </li>
               </ul>

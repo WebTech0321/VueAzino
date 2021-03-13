@@ -15,10 +15,16 @@
   font-size: 18px;
   line-height: 1.89;
 }
+.v-application a {
+  color: unset;
+}
+.container {
+  padding: 0px;
+}
 .theme--dark.v-application {
   color: var(--thm-color);
   background-color: white;
 }
-.main-header__language-image {
-  display: inline-flex;
+img, iframe {
+  display: block;
 }

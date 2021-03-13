@@ -2,14 +2,12 @@
   <header class="main-header">
     <v-container>
       <div class="inner-container">
-        <v-row>
+        <v-row no-gutters>
           <v-col sm="12" md="12" lg="12" xl="2">
             <div class="logo-box">
-              <NuxtLink to="/">
-                <a aria-label="logo image">
-                  <img :src="logoDark" width="101" alt="" />
-                </a>
-              </NuxtLink>
+              <nuxt-link to="/" aria-label="logo image">
+                <img :src="logoDark" width="101" alt="" />
+              </nuxt-link>
               <span class="fa fa-bars mobile-nav__toggler"></span>
             </div>
           </v-col>

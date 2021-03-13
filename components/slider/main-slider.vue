@@ -79,7 +79,7 @@
 </template>
 
 <script>
-import banner1 from '../../assets/images/main-slider/slider-1-1.jpg'
+// import banner1 from '../../assets/images/main-slider/slider-1-1.jpg'
 import banner2 from '../../assets/images/main-slider/slider-1-2.jpg'
 
 const mainSlideOptions = {
@@ -103,7 +103,7 @@ export default {
   data () {
     return ({
       mainSlideOptions,
-      banner1,
+      banner1: require('~/assets/images/main-slider/slider-1-1.jpg'),
       banner2
     })
   },
