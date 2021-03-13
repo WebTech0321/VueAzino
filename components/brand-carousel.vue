@@ -2,41 +2,39 @@
   <div class="client-carousel pt-120 pb-120" :class="extraClass">
     <v-container>
       <swiper :options="brandCarouselOptions">
-        <div class="swiper-wrapper">
-          <swiper-slide>
-            <img :src="brandImage" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img :src="brandImage" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img :src="brandImage" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img :src="brandImage" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img :src="brandImage" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img :src="brandImage" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img :src="brandImage" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img :src="brandImage" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img :src="brandImage" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img :src="brandImage" alt="" />
-          </swiper-slide>
-          <swiper-slide>
-            <img :src="brandImage" alt="" />
-          </swiper-slide>
-        </div>
+        <swiper-slide>
+          <img :src="brandImage" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img :src="brandImage" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img :src="brandImage" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img :src="brandImage" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img :src="brandImage" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img :src="brandImage" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img :src="brandImage" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img :src="brandImage" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img :src="brandImage" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img :src="brandImage" alt="" />
+        </swiper-slide>
+        <swiper-slide>
+          <img :src="brandImage" alt="" />
+        </swiper-slide>
       </swiper>
     </v-container>
   </div>
