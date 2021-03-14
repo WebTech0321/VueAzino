@@ -32,3 +32,56 @@ img, iframe {
 .list-unstyled {
   list-style: none;
 }
+.faq-one #accordion {
+  border-radius: 2px;
+}
+
+.faq-one #accordion .v-expansion-panel {
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0;
+}
+.faq-one #accordion .v-expansion-panel:last-child {
+  border-bottom: 0;
+}
+
+.faq-one #accordion .v-expansion-panel {  
+  background-color: #fff;
+}
+.faq-one #accordion .v-expansion-panel-header {
+  color: var(--thm-black);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.3;
+  padding: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.faq-one #accordion .v-expansion-panel-content__wrap {
+  padding: 0px;
+  padding-bottom: 25px;
+}
+.faq-one #accordion .v-expansion-panel-header--active {
+  color: var(--thm-secondary);
+}
+.faq-one #accordion .v-expansion-panel-header--active .para-title{
+  color: var(--thm-secondary);
+}
+.faq-one #accordion .v-expansion-panel-header__icon i,
+.faq-one #accordion .v-expansion-panel-header--active .v-expansion-panel-header__icon i {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.faq-one #accordion .v-expansion-panel-header__icon i::before {
+  content: "\F0415";
+  color: var(--thm-black);
+}
+.faq-one #accordion .v-expansion-panel-header--active .v-expansion-panel-header__icon i::before {
+  content: "\F0374";
+  color: var(--thm-secondary);
+}
+.faq-one #accordion .v-expansion-panel-content {
+  font-family: var(--thm-font);
+  color: var(--thm-color);
+  font-size: 18px;
+  line-height: 1.89;
+}

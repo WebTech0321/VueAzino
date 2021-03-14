@@ -10,7 +10,7 @@
           >
             <div class="service-two__box-inner">
               <img :src="heart" width="15" alt="" />
-              <p>{service.text}</p>
+              <p>{{service.text}}</p>
               <h3>
                 <nuxt-link :to="service.link">
                   {{service.title}}
