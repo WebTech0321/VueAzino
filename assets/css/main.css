@@ -6307,11 +6307,11 @@ h6 {
   cursor: pointer;
 }
 
-#testimonials-two__thumb .swiper-slide-thumb-active::before {
+#testimonials-two__thumb .swiper-slide-active::before {
   opacity: 1;
 }
 
-#testimonials-two__thumb .swiper-slide-thumb-active img {
+#testimonials-two__thumb .swiper-slide-active img {
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-filter: grayscale(0%);

@@ -6,7 +6,7 @@
           <div class="donate-options__content">
             <div class="block-title">
               <p>
-                <img src="~/assets/images/shapes/heart-2-1.png" width="15" alt="" />
+                <img src="~assets/images/shapes/heart-2-1.png" width="15" alt="" />
                 Donate Now
               </p>
               <h3>Give a helping hand <br /> for a needy people.</h3>

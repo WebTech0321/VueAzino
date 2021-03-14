@@ -18,19 +18,23 @@
           </v-col>
         </v-row>
       </div>
-      <swiper
-        :options="testimonialsThumbOptions"
-        id="testimonials-two__thumb"
-        :onSwiper="setThumbsSwiper"
-      >
-        <swiper-slide v-for="(testimonial, index) in TESTIMONIALS_DATA" :key="index">
-          <img :src="testimonial.image" :alt="testimonial.name" />
-        </swiper-slide>
-      </swiper>
+      <div id="testimonials-two__thumb" class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide"
+            style="width: 103.333px"
+            v-for="(testimonial, index) in TESTIMONIALS_DATA"
+            :key="index"
+            @click="onClickThumb(testimonial, index)"
+            :class="activeItem === index ? 'swiper-slide-active' : ''">
+            <img :src="testimonial.image" :alt="testimonial.name" />
+          </div>
+        </div>
+      </div>
       <swiper
         :options="testimonialsOptions"
         id="testimonials-two__carousel"
-        :thumbs="{swiper: thumbsSwiper}"
+        ref="swiperMain"
       >
         <swiper-slide v-for="(testimonial, index) in TESTIMONIALS_DATA" :key="index">
           <p>{{testimonial.text}}</p>
@@ -79,33 +83,34 @@ export default {
   components: {
     BlockTitle
   },
-
+  computed: {
+    swiperMain () {
+      return this.$refs.swiperMain.$swiper
+    }
+  },
   data () {
     return ({
+      activeItem: 0,
       thumbsSwiper: 0,
       TESTIMONIALS_DATA,
       testimonialsThumbOptions: {
         slidesPerView: 3,
         spaceBetween: 0,
-        speed: 1400,
-        autoplay: {
-          delay: 5000
-        }
+        speed: 1400
       },
       testimonialsOptions: {
         speed: 1400,
-        mousewheel: true,
-        slidesPerView: 1,
-        autoplay: {
-          delay: 5000
-        }
+        slidesPerView: 1
       }
     })
   },
 
   methods: {
-    setThumbsSwiper (val) {
-      this.thumbsSwiper = val
+    onClickThumb (item, index) {
+      this.thumbsSwiper = item
+      this.activeItem = index
+
+      this.swiperMain.slideTo(index, 1400, false)
     }
   }
 }

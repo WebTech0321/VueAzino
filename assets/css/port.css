@@ -6,7 +6,8 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.main-header .inner-container::before {
+.main-header .inner-container::before,
+.call-to-action .container::before {
   z-index: -1;
 }
 .v-application {  
