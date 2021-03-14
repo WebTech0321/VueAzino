@@ -1,6 +1,6 @@
 <template>
   <section class='gallery-home-one'>
-    <v-container fluid>
+    <div class="container-fluid">
       <Swiper :options="galleryOptions">
         <SwiperSlide>
           <GalleryCard :image="galleryImage1" />
@@ -33,17 +33,17 @@
           <GalleryCard :image="galleryImage5" />
         </SwiperSlide>
       </Swiper>
-    </v-container>
+    </div>
   </section>
 </template>
 
 <script>
-import GalleryCard from './gallery-card'
 import galleryImage1 from '../../assets/images/gallery/gallery-3-1.jpg'
 import galleryImage2 from '../../assets/images/gallery/gallery-3-2.jpg'
 import galleryImage3 from '../../assets/images/gallery/gallery-3-3.jpg'
 import galleryImage4 from '../../assets/images/gallery/gallery-3-4.jpg'
 import galleryImage5 from '../../assets/images/gallery/gallery-3-5.jpg'
+import GalleryCard from './gallery-card'
 
 const galleryOptions = {
   spaceBetween: 100,
@@ -79,7 +79,7 @@ const galleryOptions = {
       slidesPerView: 5
     }
   }
-};
+}
 export default {
   name: 'GalleryHome',
   components: {

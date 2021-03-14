@@ -21,12 +21,12 @@
 </template>
 
 <script>
-import GalleryCard from './gallery-card'
 import galleryDot from '../../assets/images/shapes/gallery-dot-1-1.png'
 import image1 from '../../assets/images/gallery/gallery-2-1.jpg'
 import image2 from '../../assets/images/gallery/gallery-2-2.jpg'
 import image3 from '../../assets/images/gallery/gallery-2-3.jpg'
 import image4 from '../../assets/images/gallery/gallery-2-4.jpg'
+import GalleryCard from './gallery-card'
 
 const sliderOptions = {
   spaceBetween: 100,
@@ -58,7 +58,7 @@ const sliderOptions = {
       slidesPerView: 4
     }
   }
-};
+}
 export default {
   name: 'GalleryHome',
   components: {
@@ -72,7 +72,7 @@ export default {
       image1,
       image2,
       image3,
-      image4,
+      image4
     })
   },
 
