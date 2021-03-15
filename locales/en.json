@@ -1,0 +1,17 @@
+{
+  "title": {
+    "about"			          : "About Page",
+    "volunteer"			      : "Our Volunteers",
+    "becomevolunteer"			: "Become a Volunteer",
+    "cause"   		  	    : "Causes Page",
+    "causedetails"      	: "Cause Details",    
+    "contact" 			      : "Contact Page",
+    "eventdetails"	      : "Event Details Page",
+    "events"		        	: "Events Page",
+    "gallery"       			: "Gallery Page",
+    "homeone"       			: "Home One",
+    "hometwo" 	      		: "Home Two",
+    "news"                : "News Page",
+    "newsdetails"         : "News Details"
+  }
+}

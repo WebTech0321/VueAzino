@@ -2,7 +2,7 @@
   <div>
     <HeaderOne />
     <StickyHeader />
-    <PageHeader title="Contact Page" crumbTitle="Contact Us" />
+    <PageHeader :title="$t('title.contact')" crumbTitle="Contact Us" />
     <ContactFormOne />
     <ContactCardCarousel />
     <GoogleMap extraClass="contact" />
@@ -31,7 +31,7 @@ export default {
   },
   head () {
     return {
-      title: 'Contact Page'
+      title: this.$t('title.contact')
     }
   }
 }

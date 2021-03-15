@@ -11,7 +11,7 @@
   z-index: -1;
 }
 .v-application {  
-  font-family: "Jost", sans-serif;
+  font-family: "Jost", 'Avenir', sans-serif;
   font-family: var(--thm-font);
   font-size: 18px;
   line-height: 1.89;

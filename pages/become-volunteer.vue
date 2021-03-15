@@ -2,7 +2,7 @@
   <div>
     <HeaderOne />
     <StickyHeader />
-    <PageHeader title="Become a Volunteer" crumbTitle="Become Volunteer" />
+    <PageHeader :title="$t('title.becomevolunteer')" crumbTitle="Become Volunteer" />
     <VolunteerForm />
     <BrandCarousel extraClass="client-carousel__has-border-top" />
     <Footer />
@@ -28,7 +28,7 @@ export default {
   },
   head () {
     return {
-      title: 'Become a Volunteer'
+      title: this.$t('title.becomevolunteer')
     }
   }
 }

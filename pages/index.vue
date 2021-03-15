@@ -59,7 +59,7 @@ export default {
   },
   head () {
     return {
-      title: 'Home One'
+      title: this.$t('title.homeone')
     }
   }
 }

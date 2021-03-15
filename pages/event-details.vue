@@ -2,7 +2,7 @@
   <div>
     <HeaderOne />
     <StickyHeader />
-    <PageHeader title="Event Details" crumbTitle="Event Details" />
+    <PageHeader :title="$t('title.eventdetails')" crumbTitle="Event Details" />
     <div>
       <section class="event-details pt-120">
         <v-container>
@@ -120,7 +120,7 @@ export default {
   },
   head () {
     return {
-      title: 'Event Details Page'
+      title: this.$t('title.eventdetails')
     }
   },
   data () {

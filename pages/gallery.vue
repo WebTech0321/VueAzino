@@ -2,7 +2,7 @@
   <div>
     <HeaderOne />
     <StickyHeader />
-    <PageHeader title="Gallery Page" crumbTitle="Gallery" />
+    <PageHeader :title="$t('title.gallery')" crumbTitle="Gallery" />
     <GalleryPage />
     <Footer />
   </div>
@@ -25,7 +25,7 @@ export default {
   },
   head () {
     return {
-      title: 'Gallery Page'
+      title: this.$t('title.gallery')
     }
   }
 }

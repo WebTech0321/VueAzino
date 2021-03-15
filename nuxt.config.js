@@ -27,7 +27,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: './plugins/vue-awesome-swiper.js', ssr: false }
+    { src: './plugins/vue-awesome-swiper.js', ssr: false },    
+    '~/plugins/i18n.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -81,6 +82,7 @@ export default {
       'vue-visibility-sensor',
       'countup.js',
       'vue-countup-v2',
+      'vue-flag-icon',
       'swiper'
     ]
   }

@@ -61,7 +61,7 @@ export default {
   },
   head () {
     return {
-      title: 'Home Two'
+      title: this.$t('title.hometwo')
     }
   }
 }

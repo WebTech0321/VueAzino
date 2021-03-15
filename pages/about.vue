@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PageHeader title="About Page" crumbTitle="About" />
+    <PageHeader :title="$t('title.about')" crumbTitle="About" />
     <HeaderOne />
     <StickyHeader />
     <AboutOne />
@@ -40,7 +40,7 @@ export default {
   },
   head () {
     return {
-      title: 'About Page'
+      title: this.$t('title.about')
     }
   }
 }

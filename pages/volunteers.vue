@@ -2,7 +2,7 @@
   <div>
     <HeaderOne />
     <StickyHeader />
-    <PageHeader title="Our Volunteers" crumbTitle="Our Volunteers" />
+    <PageHeader :title="$t('title.volunteer')" crumbTitle="Our Volunteers" />
     <TeamPage />
     <Footer />
   </div>
@@ -25,7 +25,7 @@ export default {
   },
   head () {
     return {
-      title: 'News Page'
+      title: this.$t('title.volunteer')
     }
   }
 }

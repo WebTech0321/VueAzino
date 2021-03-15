@@ -1,0 +1,17 @@
+{
+  "title": {
+    "about"			          : "Pri Paĝo",
+    "volunteer"			      : "Niaj Volontuloj",
+    "becomevolunteer"			: "Fariĝu Volontulo",
+    "cause"   		  	    : "Kaŭzas Paĝon",
+    "causedetails"      	: "Kaŭzi Detalojn",    
+    "contact" 			      : "Kontakta Paĝo",
+    "eventdetails"	      : "Paĝo pri Eventaj Detaloj",
+    "events"		        	: "Paĝo pri Eventoj",
+    "gallery"       			: "Galeria Paĝo",
+    "homeone"       			: "Hejma Unu",
+    "hometwo" 	      		: "Hejmo Du",
+    "news"                : "Novaĵa Paĝo",
+    "newsdetails"         : "Novaĵoj-Detaloj"
+  }
+}
