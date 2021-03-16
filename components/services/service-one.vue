@@ -10,7 +10,7 @@
           <img :src="blockTitleHeart" width="15" alt="" />
           Welcome to Azino Charity
         </p>
-        <h3>We believe that we can save <br /> more lifes with you.</h3>
+        <h3>We believe that we can save <br> more lifes with you.</h3>
       </div>
       <v-row>
         <v-col v-for="(service, index) in serviceOneData" md="6" lg="3" :key="'service-one-key-' + index">

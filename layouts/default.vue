@@ -1,7 +1,7 @@
 <template>
   <v-app>
-    <div class="page-wrapper" id="wrapper">
-      <nuxt/>
+    <div id="wrapper" class="page-wrapper">
+      <nuxt />
     </div>
     <MobileNav />
     <SearchPopup />
@@ -17,22 +17,6 @@ export default {
   components: {
     MobileNav,
     SearchPopup
-  },
-  mounted () {
-    this.handleRadius()
-  },
-  updated () {
-    this.handleRadius()
-  },
-  methods: {
-    handleRadius () {
-      const dynamicRadius = document.querySelectorAll('.dynamic-radius')
-      dynamicRadius.forEach(function (btn) {
-        const btnHeight = btn.offsetHeight
-        btn.style.borderBottomLeftRadius = btnHeight / 2 + 'px'
-        btn.style.borderTopLeftRadius = btnHeight / 2 + 'px'
-      })
-    }
   }
 }
 </script>
@@ -43,5 +27,5 @@ export default {
 @import '../assets/css/fontawesome-all.min.css';
 @import '../assets/css/port.css';
 @import '../assets/css/main.css';
-@import 'swiper/swiper-bundle.min.css';
+@import 'swiper/css/swiper.css'
 </style>

@@ -3,22 +3,22 @@
     <ModalVideo
       channel="youtube"
       autoplay
-      :isOpen="isOpen"
-      videoId="L61p2uyiMSo"
-      :onClose="onCloseModal"
+      :is-open="isOpen"
+      video-idd="L61p2uyiMSo"
+      :on-close="onCloseModal"
     />
     <div
       class="video-card__bg"
       :style="{backgroundImage: 'url('+bgImage+')'}"
-    ></div>
+    />
 
     <v-container class=" text-center pt-120 pb-120">
       <p>
-        <img :src="heart" width="15" alt="" />
+        <img :src="heart" width="15" alt="">
         Help Other People
       </p>
       <h3>
-        Our fingerprints on the <br />
+        Our fingerprints on the <br>
         lives we touch never fade.
       </h3>
       <div class="video-card__btn-block">
@@ -27,10 +27,10 @@
         </nuxt-link>
 
         <span
-          @click="onOpenModal"
           class="video-popup video-card__btn"
+          @click="onOpenModal"
         >
-          <i class="fa fa-play"></i>
+          <i class="fa fa-play" />
         </span>
       </div>
     </v-container>

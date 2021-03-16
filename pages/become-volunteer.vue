@@ -2,9 +2,9 @@
   <div>
     <HeaderOne />
     <StickyHeader />
-    <PageHeader :title="$t('title.becomevolunteer')" crumbTitle="Become Volunteer" />
+    <PageHeader :title="$t('title.becomevolunteer')" crumb-title="Become Volunteer" />
     <VolunteerForm />
-    <BrandCarousel extraClass="client-carousel__has-border-top" />
+    <BrandCarousel extra-class="client-carousel__has-border-top" />
     <Footer />
   </div>
 </template>

@@ -31,19 +31,18 @@
           </div>
         </div>
       </div>
-      <swiper
-        :options="testimonialsOptions"
-        id="testimonials-two__carousel"
-        ref="swiperMain"
-      >
-        <swiper-slide v-for="(testimonial, index) in TESTIMONIALS_DATA" :key="index">
-          <p>{{testimonial.text}}</p>
-          <div class="testimonials-two__meta">
-            <h3>{{testimonial.name}}</h3>
-            <span>{{testimonial.designation}}</span>
+      <div id="testimonials-two__carousel" v-swiper:swiperMain="testimonialsOptions">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" v-for="(testimonial, index) in TESTIMONIALS_DATA" :key="index">
+            <p>{{testimonial.text}}</p>
+            <div class="testimonials-two__meta">
+              <h3>{{testimonial.name}}</h3>
+              <span>{{testimonial.designation}}</span>
+            </div>
           </div>
-        </swiper-slide>
-      </swiper>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </v-container>
   </section>
 </template>
@@ -82,11 +81,6 @@ export default {
   name: 'TestimonialsTwo',
   components: {
     BlockTitle
-  },
-  computed: {
-    swiperMain () {
-      return this.$refs.swiperMain.$swiper
-    }
   },
   data () {
     return ({

@@ -8,7 +8,7 @@
               <img :src="heartImage" width="15" alt="" />
               Popular Causes
             </p>
-            <h3>Donate to charity causes <br /> around the world.</h3>
+            <h3>Donate to charity causes <br> around the world.</h3>
           </div>
         </v-col>
         <v-col lg="5" class=" d-flex">

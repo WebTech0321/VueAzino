@@ -10,17 +10,15 @@
 .call-to-action .container::before {
   z-index: -1;
 }
-.v-application {  
-  font-family: "Jost", 'Avenir', sans-serif;
-  font-family: var(--thm-font);
+.v-application { 
   font-size: 18px;
   line-height: 1.89;
 }
-.v-application a {
-  color: unset;
+.v-application a.thm-btn {
+  color: white;
 }
-.container {
-  padding: 0px;
+.v-application a.thm-btn:hover {
+  color: var(--thm-base);
 }
 .theme--dark.v-application {
   color: var(--thm-color);
@@ -84,4 +82,8 @@ img, iframe {
   color: var(--thm-color);
   font-size: 18px;
   line-height: 1.89;
+}
+.dynamic-radius {
+  border-top-left-radius: 50vh;
+  border-bottom-left-radius: 50vh;
 }

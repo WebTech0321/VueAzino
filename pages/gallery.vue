@@ -2,7 +2,7 @@
   <div>
     <HeaderOne />
     <StickyHeader />
-    <PageHeader :title="$t('title.gallery')" crumbTitle="Gallery" />
+    <PageHeader :title="$t('title.gallery')" crumb-title="Gallery" />
     <GalleryPage />
     <Footer />
   </div>

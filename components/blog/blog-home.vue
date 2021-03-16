@@ -1,7 +1,7 @@
 <template>
   <section class="news-page news-home pt-120 pb-120">
     <v-container>
-      <v-row class="align-items-start align-items-md-center flex-column flex-md-row mb-60">
+      <v-row class="align-start align-md-center flex-column flex-md-row mb-60">
         <v-col lg="7">
           <BlockTitle
             title="Latest news & articles <br/> directly from the blog."
@@ -18,19 +18,21 @@
           </div>
         </v-col>
       </v-row>
-      <swiper :options="blogCarouselOptions">
-        <swiper-slide v-for="(blog, index) in BLOG_DATA" :key="index">
-          <BlogCard
-            :image="blog.image"
-            :title="blog.title"
-            :date="blog.date"
-            :text="blog.text"
-            :link="blog.link"
-            :commentCount="blog.commentCount"
-            :author="blog.author"
-          />
-        </swiper-slide>
-      </swiper>
+      <div v-swiper="blogCarouselOptions">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" v-for="(blog, index) in BLOG_DATA" :key="index">
+            <BlogCard
+              :image="blog.image"
+              :title="blog.title"
+              :date="blog.date"
+              :text="blog.text"
+              :link="blog.link"
+              :commentCount="blog.commentCount"
+              :author="blog.author"
+            />
+          </div>
+        </div>
+      </div>
     </v-container>
   </section>
 </template>

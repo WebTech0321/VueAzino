@@ -1,10 +1,10 @@
 <template>
   <div>
-    <PageHeader :title="$t('title.about')" crumbTitle="About" />
+    <PageHeader :title="$t('title.about')" crumb-title="About" />
     <HeaderOne />
     <StickyHeader />
     <AboutOne />
-    <BrandCarousel extraClass="client-carousel__has-border-top" />
+    <BrandCarousel extra-class="client-carousel__has-border-top" />
     <AboutCounter />
     <TeamHome />
     <VideoCard />

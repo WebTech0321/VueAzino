@@ -9,7 +9,7 @@
                 <img :src="heart" width="15" alt="" />
                 Popular Causes
               </p>
-              <h3>Donate to charity causes <br /> around the world.</h3>
+              <h3>Donate to charity causes <br> around the world.</h3>
             </div>
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed

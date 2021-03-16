@@ -1,6 +1,6 @@
 <template>
   <section class="donate-options pt-120">
-    <v-container>
+    <v-container class="pa-0">
       <v-row no-gutters>
         <v-col lg="6">
           <div class="donate-options__content">
@@ -9,18 +9,18 @@
                 <img src="~assets/images/shapes/heart-2-1.png" width="15" alt="" />
                 Donate Now
               </p>
-              <h3>Give a helping hand <br /> for a needy people.</h3>
+              <h3>Give a helping hand <br> for a needy people.</h3>
             </div>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and <br />
-              typesetting industry. Have you done google research <br />
+              Lorem Ipsum is simply dummy text of the printing and <br>
+              typesetting industry. Have you done google research <br>
               which works all the time.
             </p>
             <div class="donate-options__call">
               <i class="azino-icon-telephone"></i>
               <div class="donate-options__call-content">
                 <p>
-                  Have any question about donation? <br />
+                  Have any question about donation? <br>
                   <span>Call us now:</span>
                   <a href="tel:666-888-0000">666 888 0000</a>
                 </p>
@@ -56,7 +56,7 @@
           >
             <h3 class="text-center">Start donating now</h3>
             <p class="text-center">
-              Lorem ipsum dolor sit amet, conse ctetur <br /> adipisicing elit
+              Lorem ipsum dolor sit amet, conse ctetur <br> adipisicing elit
               sed do eiusm od tempor ut labore.
             </p>
             <label htmlFor="donate-name" class="sr-only"></label>

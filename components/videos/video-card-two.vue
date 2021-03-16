@@ -3,24 +3,24 @@
     <ModalVideo
       channel="youtube"
       autoplay
-      :isOpen="isOpen"
-      videoId="L61p2uyiMSo"
-      :onClose="onCloseModal"
+      :is-open="isOpen"
+      video-idd="L61p2uyiMSo"
+      :on-close="onCloseModal"
     />
     <v-container>
       <div
-          class="inner-container"
-          :style="{backgroundImage: 'url('+videoBg+')'}"
-        >
-        <v-row class="align-items-center">
+        class="inner-container"
+        :style="{backgroundImage: 'url('+videoBg+')'}"
+      >
+        <v-row class="align-center">
           <v-col lg="3">
             <div class="video-card-two__box">
-              <img :src="videoImage" alt="" />
+              <img :src="videoImage" alt="">
               <span
                 class="video-card-two__box-btn video-popup"
                 @click="onOpenModal"
               >
-                <i class="fa fa-play"></i>
+                <i class="fa fa-play" />
               </span>
             </div>
           </v-col>

@@ -5,7 +5,7 @@
       :style="{backgroundImage: 'url('+bgImage+')'}"
     >
       <v-container>
-        <v-row class="align-items-start align-items-md-center flex-v-column flex-md-v-row">
+        <v-row class="align-start align-md-center flex-v-column flex-md-v-row">
           <v-col lg="7">
             <BlockTitle
               title="Latest news & articles <br/> directly from the blog."
@@ -26,19 +26,21 @@
     </section>
     <section class="news-page pb-120">
       <v-container>
-        <swiper :options="blogCarouselOptions">
-          <swiper-slide v-for="(blog,index) in BLOG_DATA" :key="index">
-            <BlogCard
-              :image="blog.image"
-              :title="blog.title"
-              :date="blog.date"
-              :text="blog.text"
-              :link="blog.link"
-              :commentCount="blog.commentCount"
-              :author="blog.author"
-            />
-          </swiper-slide>
-        </swiper>
+        <div v-swiper="blogCarouselOptions">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" v-for="(blog,index) in BLOG_DATA" :key="index">
+              <BlogCard
+                :image="blog.image"
+                :title="blog.title"
+                :date="blog.date"
+                :text="blog.text"
+                :link="blog.link"
+                :commentCount="blog.commentCount"
+                :author="blog.author"
+              />
+            </div>
+          </div>
+        </div>
       </v-container>
     </section>
   </div>

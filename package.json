@@ -15,7 +15,7 @@
     "core-js": "^3.8.3",
     "countup.js": "^2.0.7",
     "nuxt": "^2.14.12",
-    "swiper": "^6.5.0",
+    "swiper": "^5.3.7",
     "vue-awesome-swiper": "^4.1.1",
     "vue-countup-v2": "^4.0.0",
     "vue-flag-icon": "^1.0.6",

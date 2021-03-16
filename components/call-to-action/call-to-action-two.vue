@@ -13,7 +13,7 @@
               <img :src="HeartImage" width="15" alt="" />
               Help Other People
             </p>
-            <h3>Our fingerprints on <br /> the lives we touch <br /> never fade.</h3>
+            <h3>Our fingerprints on <br> the lives we touch <br> never fade.</h3>
           </div>
         </v-col>
         <v-col

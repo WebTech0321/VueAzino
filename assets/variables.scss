@@ -2,3 +2,20 @@
 //
 // The variables you want to modify
 // $font-size-root: 20px;
+@import '~vuetify/src/styles/styles.sass'; // to allow map-merge function and so on
+@import '~vuetify/src/styles/settings/_variables.scss';
+$grid-breakpoints: map-merge($grid-breakpoints, (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+));
+
+$container-max-widths: map-deep-merge($container-max-widths, (
+  'md': map-get($grid-breakpoints, 'md') * 0.9375,
+  'lg': map-get($grid-breakpoints, 'lg') * 0.9677,
+  'xl': map-get($grid-breakpoints, 'xl')
+));
+
+$body-font-family: "Jost", 'Avenir', sans-serif !default;

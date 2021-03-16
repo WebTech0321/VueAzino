@@ -27,15 +27,18 @@
       </ul>
       <div class="mobile-nav__top">
         <div class="mobile-nav__language">
-          <img :src="flag1" alt="" />
-          <label class="sr-only" htmlFor="language-select">
+          <div class="main-header__language-image mr-1">
+            <flag :iso="currentLang.flag" :squared="false" />
+          </div>
+          <label htmlFor="language-header" class="sr-only">
             select language
           </label>
-          <select class="selectpicker" id="language-select">
-            <option value="english">English</option>
-            <option value="arabic">Arabic</option>
+          <select class="selectpicker" v-model="language" @change="onChangeLanguage">
+            <option v-for="lang in $store.state.locales" :key="lang.language" :value="lang.language">
+              {{lang.title}}
+            </option>
           </select>
-          <i class="fa fa-caret-down select-icon"></i>
+          <i class="fa fa-caret-down select-icon" />
         </div>
         <div class="mobile-nav__social">
           <a href="#" aria-label="twitter">
@@ -58,7 +61,6 @@
 
 <script>
 import logoLight from '../assets/images/logo-light.png'
-import flag1 from '../assets/images/resources/flag-1-1.jpg'
 
 import NavLinks from './header/nav-links'
 
@@ -67,15 +69,22 @@ export default {
   components: {
     NavLinks
   },
-
+  computed: {
+    currentLang () {
+      return this.$store.state.locale
+    }
+  },
   data () {
     return ({
       logoLight,
-      flag1
+      language: this.$store.state.locale.language
     })
   },
-
   methods: {
+    onChangeLanguage () {
+      this.$i18n.locale = this.language
+      this.$store.commit('SET_LANG', this.language)
+    }
   }
 }
 </script>

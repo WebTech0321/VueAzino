@@ -10,7 +10,7 @@
                 Help People Now
               </p>
               <h3>
-                Charity for the people <br /> you care about.
+                Charity for the people <br> you care about.
               </h3>
             </div>
             <v-expansion-panels id="accordion" accordion multiple>

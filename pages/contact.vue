@@ -2,10 +2,10 @@
   <div>
     <HeaderOne />
     <StickyHeader />
-    <PageHeader :title="$t('title.contact')" crumbTitle="Contact Us" />
+    <PageHeader :title="$t('title.contact')" crumb-title="Contact Us" />
     <ContactFormOne />
     <ContactCardCarousel />
-    <GoogleMap extraClass="contact" />
+    <GoogleMap extra-class="contact" />
     <Footer />
   </div>
 </template>

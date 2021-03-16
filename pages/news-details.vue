@@ -2,7 +2,7 @@
   <div>
     <HeaderOne />
     <StickyHeader />
-    <PageHeader :title="$t('title.newsdetails')" crumbTitle="News" />
+    <PageHeader :title="$t('title.newsdetails')" crumb-title="News" />
     <BlogDetails />
     <Footer />
   </div>

@@ -12,7 +12,7 @@
                 <img :src='heartImage' width='15' alt='' />
                 Our Volunteers
               </p>
-              <h3>Meet those who help <br /> others in need.</h3>
+              <h3>Meet those who help <br> others in need.</h3>
             </div>
           </v-col>
           <v-col md='12' lg='5'>

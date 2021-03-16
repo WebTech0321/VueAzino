@@ -1,6 +1,6 @@
 <template>
   <header class="main-header">
-    <v-container>
+    <v-container class="pa-0">
       <div class="inner-container">
         <v-row no-gutters>
           <v-col sm="12" md="12" lg="12" xl="2">

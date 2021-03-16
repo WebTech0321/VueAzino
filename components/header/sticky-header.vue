@@ -3,7 +3,7 @@
     <v-container>
       <div class="logo-box">
         <nuxt-link to="/" aria-label="logo image">
-          <img :src="logoLight" width="101" alt="" />
+          <img :src="logoLight" width="101" alt="">
         </nuxt-link>
       </div>
       <div class="sticky-header__content">

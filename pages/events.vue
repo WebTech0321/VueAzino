@@ -2,7 +2,7 @@
   <div>
     <HeaderOne />
     <StickyHeader />
-    <PageHeader :title="$t('title.event')" crumbTitle="Events" />
+    <PageHeader :title="$t('title.events')" crumb-title="Events" />
     <EventPage />
     <Footer />
   </div>
@@ -25,7 +25,7 @@ export default {
   },
   head () {
     return {
-      title: this.$t('title.event')
+      title: this.$t('title.events')
     }
   }
 }

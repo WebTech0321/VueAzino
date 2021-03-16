@@ -5,16 +5,16 @@
         <p>Welcome to non profit charity platform</p>
         <div class="main-header__social">
           <a href="#" aria-label="twitter">
-            <i class="fab fa-twitter"></i>
+            <i class="fab fa-twitter" />
           </a>
           <a href="#" aria-label="facebook">
-            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-facebook-square" />
           </a>
           <a href="#" aria-label="pinterest">
-            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-pinterest-p" />
           </a>
           <a href="#" aria-label="instagram">
-            <i class="fab fa-instagram"></i>
+            <i class="fab fa-instagram" />
           </a>
         </div>
       </v-container>
@@ -22,17 +22,15 @@
     <div class="header-upper">
       <v-container>
         <div class="logo-box">
-          <Link href="/">
-            <a aria-label="logo image">
-              <img src={logoDark} width="101" alt="" />
-            </a>
-          </Link>
-          <span class="fa fa-bars mobile-nav__toggler"></span>
+          <nuxt-link to="/">
+            <img :src="logoDark" width="101" alt="">
+          </nuxt-link>
+          <span class="fa fa-bars mobile-nav__toggler" />
         </div>
 
         <div class="header-info">
           <div class="header-info__box">
-            <i class="azino-icon-email1"></i>
+            <i class="azino-icon-email1" />
             <div class="header-info__box-content">
               <h3>Email</h3>
               <p>
@@ -41,7 +39,7 @@
             </div>
           </div>
           <div class="header-info__box">
-            <i class="azino-icon-calling"></i>
+            <i class="azino-icon-calling" />
             <div class="header-info__box-content">
               <h3>Phone</h3>
               <p>
@@ -50,7 +48,7 @@
             </div>
           </div>
           <div class="header-info__box">
-            <i class="azino-icon-address"></i>
+            <i class="azino-icon-address" />
             <div class="header-info__box-content">
               <h3>Visit</h3>
               <p>88 Broklyn Golden Street, USA</p>
@@ -61,8 +59,10 @@
     </div>
     <nav class="main-menu">
       <v-container>
-        <NavLinks extraClassName="dynamic-radius" />
-        <nuxt-link to="/contact" class="thm-btn dynamic-radius">Donate Now</nuxt-link>
+        <NavLinks extra-class-name="dynamic-radius" />
+        <nuxt-link to="/contact" class="thm-btn dynamic-radius">
+          Donate Now
+        </nuxt-link>
       </v-container>
     </nav>
   </div>
@@ -77,19 +77,17 @@ export default {
   components: {
     NavLinks
   },
-
+  data () {
+    return ({
+      logoDark
+    })
+  },
   mounted () {
     this.mobileMenu()
   },
   updated () {
     this.mobileMenu()
   },
-  data () {
-    return ({
-      logoDark
-    })
-  },
-
   methods: {
     mobileMenu: () => {
       document

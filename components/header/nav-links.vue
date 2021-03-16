@@ -1,17 +1,17 @@
 <template>
   <ul class="main-menu__list" :class="extraClassName">
     <li class="dropdown">
-      <nuxt-link to="/index">
+      <nuxt-link to="/">
         <div>
           Home
           <button aria-label="dropdown toggler" @click="handleDropdownStatus">
-            <i class="fa fa-angle-down"></i>
+            <i class="fa fa-angle-down" />
           </button>
         </div>
       </nuxt-link>
       <ul class="dropdown-list">
         <li>
-          <nuxt-link to="/index">
+          <nuxt-link to="/">
             Home One
           </nuxt-link>
         </li>
@@ -28,7 +28,7 @@
                 aria-label="dropdown toggler"
                 @click="handleDropdownStatus"
               >
-                <i class="fa fa-angle-down"></i>
+                <i class="fa fa-angle-down" />
               </button>
             </div>
           </nuxt-link>
@@ -55,7 +55,7 @@
             aria-label="dropdown toggler"
             @click="handleDropdownStatus"
           >
-            <i class="fa fa-angle-down"></i>
+            <i class="fa fa-angle-down" />
           </button>
         </div>
       </nuxt-link>
@@ -80,7 +80,7 @@
             aria-label="dropdown toggler"
             @click="handleDropdownStatus"
           >
-            <i class="fa fa-angle-down"></i>
+            <i class="fa fa-angle-down" />
           </button>
         </div>
       </nuxt-link>
@@ -105,7 +105,7 @@
             aria-label="dropdown toggler"
             @click="handleDropdownStatus"
           >
-            <i class="fa fa-angle-down"></i>
+            <i class="fa fa-angle-down" />
           </button>
         </div>
       </nuxt-link>
@@ -130,7 +130,7 @@
             aria-label="dropdown toggler"
             @click="handleDropdownStatus"
           >
-            <i class="fa fa-angle-down"></i>
+            <i class="fa fa-angle-down" />
           </button>
         </div>
       </nuxt-link>
@@ -164,7 +164,7 @@
     </li>
     <li class="search-btn search-toggler">
       <span>
-        <i class="azino-icon-magnifying-glass"></i>
+        <i class="azino-icon-magnifying-glass" />
       </span>
     </li>
   </ul>

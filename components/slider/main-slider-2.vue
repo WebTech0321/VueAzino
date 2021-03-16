@@ -11,7 +11,7 @@
           <v-row class=" justify-start">
             <v-col xl="6" lg="12" class="text-left">
               <h2>
-                Donat<span>i</span>on <br /> Can Change <br /> Someone’s Life
+                Donat<span>i</span>on <br> Can Change <br> Someone’s Life
               </h2>
               <p>Make a difference in families lives with just $5 a Month</p>
               <a
@@ -35,7 +35,7 @@
           <v-row class=" justify-start">
             <v-col xl="6" lg="12" class="text-left">
               <h2>
-                Donat<span>i</span>on <br /> Can Change <br /> Someone’s Life
+                Donat<span>i</span>on <br> Can Change <br> Someone’s Life
               </h2>
               <p>Make a difference in families lives with just $5 a Month</p>
               <a
@@ -59,7 +59,7 @@
           <v-row class="justify-start">
             <v-col xl="6" lg="12" class="text-left">
               <h2>
-                Donat<span>i</span>on <br /> Can Change <br /> Someone’s Life
+                Donat<span>i</span>on <br> Can Change <br> Someone’s Life
               </h2>
               <p>Make a difference in families lives with just $5 a Month</p>
               <a

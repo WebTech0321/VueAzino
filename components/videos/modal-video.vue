@@ -2,24 +2,24 @@
   <section v-if="isOpenState">
     <div
       :class="classNames.modalVideo"
-      tabIndex='-1'
-      role='dialog'
+      tabIndex="-1"
+      role="dialog"
       :aria-label="aria.openMessage"
       @click="closeModal"
-      >
+    >
       <div :class="classNames.modalVideoBody">
         <div :class="classNames.modalVideoInner">
           <div :class="classNames.modalVideoIframeWrap" :style="style">
             <button :class="classNames.modalVideoCloseBtn" :aria-label="aria.dismissBtnMessage" />
             <slot>
               <iframe
-                width='460'
-                height='230'
+                width="460"
+                height="230"
                 :src="getVideoUrl"
-                frameBorder='0'
-                allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-                :allowFullScreen="allowFullScreen"
-                tabIndex='-1'
+                frame-border="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                :allow-full-screen="allowFullScreen"
+                tabIndex="-1"
               />
             </slot>
           </div>
@@ -136,28 +136,28 @@ export default {
       }
     },
     onClose: {
-      type: Function
+      type: Function,
+      default () {
+        return () => {}
+      }
     }
   },
-  components: {
-  },
-
   data () {
     return ({
       isOpenState: false
     })
   },
-  watch: {
-    isOpen (newVal, oldVal) {
-      if (newVal !== oldVal) {
-        this.isOpenState = this.isOpen
-      }
-    }
-  },
   computed: {
     style () {
       return {
         paddingBottom: this.getPadding(this.ratio)
+      }
+    }
+  },
+  watch: {
+    isOpen (newVal, oldVal) {
+      if (newVal !== oldVal) {
+        this.isOpenState = this.isOpen
       }
     }
   },
@@ -214,9 +214,7 @@ export default {
     },
     closeModal () {
       this.isOpenState = false
-      console.log(this.onClose)
       if (typeof this.onClose === 'function') {
-        console.log('call')
         this.onClose()
       }
     }

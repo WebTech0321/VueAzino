@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderTwo />
-    <StickyHeader extraClassName="stricky-header-two" />
+    <StickyHeader extra-class-name="stricky-header-two" />
     <MainSliderTwo />
     <ServiceTwo />
     <AboutTwo />
@@ -15,7 +15,7 @@
     <GalleryHomeTwo />
     <EventHomeTwo />
     <BlogHomeTwo />
-    <BrandCarousel extraClass="client-carousel__has-border-top" />
+    <BrandCarousel extra-class="client-carousel__has-border-top" />
     <Footer />
   </div>
 </template>

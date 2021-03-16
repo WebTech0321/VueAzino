@@ -2,7 +2,7 @@
   <div>
     <HeaderOne />
     <StickyHeader />
-    <PageHeader :title="$t('title.eventdetails')" crumbTitle="Event Details" />
+    <PageHeader :title="$t('title.eventdetails')" crumb-title="Event Details" />
     <div>
       <section class="event-details pt-120">
         <v-container>
@@ -26,7 +26,7 @@
               </p>
             </v-col>
             <v-col md="12" lg="6">
-              <img :src="detailsImage" alt="" class="img-fluid" />
+              <img :src="detailsImage" alt="" class="img-fluid">
             </v-col>
           </v-row>
         </v-container>
@@ -48,16 +48,16 @@
                 </ul>
                 <div class="event-infos__social">
                   <a href="#">
-                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-twitter" />
                   </a>
                   <a href="#">
-                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-facebook-square" />
                   </a>
                   <a href="#">
-                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-pinterest-p" />
                   </a>
                   <a href="#">
-                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-instagram" />
                   </a>
                 </div>
               </div>
@@ -69,7 +69,7 @@
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
                   class="map__event"
                   allowFullScreen
-                ></iframe>
+                />
               </div>
             </v-col>
             <v-col md="12" lg="4" class="mb-30">
@@ -81,15 +81,15 @@
                 </p>
                 <ul class="list-unstyled event-infos__list event-infos__list-has-icons">
                   <li>
-                    <i class="azino-icon-telephone"></i>
+                    <i class="azino-icon-telephone" />
                     <a href="tel:6668880000">666 888 0000</a>
                   </li>
                   <li>
-                    <i class="azino-icon-email"></i>
+                    <i class="azino-icon-email" />
                     <a href="mailto:info@azino.com">info@azino.com</a>
                   </li>
                   <li>
-                    <i class="azino-icon-pin"></i>
+                    <i class="azino-icon-pin" />
                     88 top broklyn street road new york, USA
                   </li>
                 </ul>
@@ -118,15 +118,15 @@ export default {
     StickyHeader,
     Footer
   },
-  head () {
-    return {
-      title: this.$t('title.eventdetails')
-    }
-  },
   data () {
     return ({
       detailsImage
     })
+  },
+  head () {
+    return {
+      title: this.$t('title.eventdetails')
+    }
   }
 }
 </script>

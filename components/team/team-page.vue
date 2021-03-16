@@ -5,7 +5,7 @@
         <TeamCard
           v-for="(data, index) in TEAM_DATA"
           :key="index"
-          :extraClass="data.extraClass"
+          :extra-class="data.extraClass"
           :name="data.name"
           :designation="data.designation"
           :image="data.image"
@@ -64,7 +64,7 @@ const TEAM_DATA = [
 ]
 
 export default {
-  name: 'TeamCard',
+  name: 'TeamPage',
   components: {
     TeamCard
   },

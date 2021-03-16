@@ -8,11 +8,11 @@
               <img :src="heartImage" width="15" alt=""/>
               Help People Now
             </p>
-            <h3>Charity for the people <br />you care about.</h3>
+            <h3>Charity for the people <br>you care about.</h3>
           </div>
           <p class="about-counter__text">
-            Lorem Ipsum is simply dummy text of the printing and <br />
-            typesetting industry. Have you done google research which <br />
+            Lorem Ipsum is simply dummy text of the printing and <br>
+            typesetting industry. Have you done google research which <br>
             works all the time.
           </p>
           <ul class="list-unstyled ul-list-one">
@@ -31,7 +31,7 @@
               </VisibilitySensor>
             </h3>
             <p>
-              Donation campaigns <br /> are running
+              Donation campaigns <br> are running
             </p>
           </div>
         </v-col>

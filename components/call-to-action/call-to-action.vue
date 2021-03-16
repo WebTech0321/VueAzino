@@ -7,7 +7,7 @@
             <div class="call-to-action__icon">
               <i class="azino-icon-support"></i>
             </div>
-            <h3>Let’s make a difference in <br /> the lives of others</h3>
+            <h3>Let’s make a difference in <br> the lives of others</h3>
           </div>
         </v-col>
         <v-col

@@ -13,7 +13,7 @@
                 Our Testimonials
               </p>
               <h3>
-                What they are talking <br /> about azino.
+                What they are talking <br> about azino.
               </h3>
             </div>
           </v-col>

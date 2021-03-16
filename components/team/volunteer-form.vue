@@ -10,7 +10,7 @@
                 Join Us Now
               </p>
               <h3>
-                Register yourself as <br /> our volunteer.
+                Register yourself as <br> our volunteer.
               </h3>
             </div>
             <p class="block-text mb-40 pr-10">

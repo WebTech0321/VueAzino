@@ -12,7 +12,7 @@
             <v-col xl="7" lg="12" class="text-right">
               <p>Help the poor in need</p>
               <h2>
-                Lend the <br /> helping hand <br /> get involved.
+                Lend the <br> helping hand <br> get involved.
               </h2>
               <a
                 href="#"
@@ -36,7 +36,7 @@
             <v-col xl="8" lg="12" class="text-right">
               <p>Help the poor in need</p>
               <h2>
-                Donat<span class="iconic-text">i</span>on <br /> Can Change <br /> Life
+                Donat<span class="iconic-text">i</span>on <br> Can Change <br> Life
               </h2>
               <a
                 href="#"
@@ -60,7 +60,7 @@
             <v-col lg="7" class=" text-right">
               <p>Help the poor in need</p>
               <h2>
-                Lend the <br /> helping hand <br /> get involved.
+                Lend the <br> helping hand <br> get involved.
               </h2>
               <a
                 href="#"

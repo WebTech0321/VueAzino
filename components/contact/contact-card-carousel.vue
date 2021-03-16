@@ -10,8 +10,8 @@
             <i aria-label="contact icon" class="azino-icon-family"></i>
             <h3>About</h3>
             <p>
-              Lorem ipsum is simply free text <br /> dolor sit amet,
-              consectetur <br /> adipiscing ullam blandit
+              Lorem ipsum is simply free text <br> dolor sit amet,
+              consectetur <br> adipiscing ullam blandit
             </p>
           </div>
         </swiper-slide>
@@ -23,7 +23,7 @@
             <i aria-label="contact icon" class="azino-icon-address"></i>
             <h3>Address</h3>
             <p>
-              88 Broklyn Golden Street, <br /> New York. United States of <br /> America.
+              88 Broklyn Golden Street, <br> New York. United States of <br> America.
             </p>
           </div>
         </swiper-slide>
@@ -35,7 +35,7 @@
             <i aria-label="contact icon" class="azino-icon-contact"></i>
             <h3>Contact</h3>
             <p>
-              <a href="mailto:">needhelp@azino.com</a> <br />
+              <a href="mailto:">needhelp@azino.com</a> <br>
               <a href="tel:666-888-0000">666 888 0000</a>
             </p>
           </div>

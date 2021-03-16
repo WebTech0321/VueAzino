@@ -11,7 +11,7 @@
               <img :src="heart" width="15" alt="" />
               Latest Event List
             </p>
-            <h3>Checkout our upcoming <br /> full event list.</h3>
+            <h3>Checkout our upcoming <br> full event list.</h3>
           </div>
         </v-col>
         <v-col lg="5" class="d-flex">
